@@ -1,0 +1,10 @@
+Transformada de un tren periodico de deltas pag 1-2
+Transformada de un tren periodico de pulsos pag 3-5 (Usando convolucion de un tren periodico de deltas con un pulso)
+Filtro Recuperador Ideal pag 6-8
+
+Apendice 1 :Transformada de una delta
+            transformada de exponencial compleja 
+
+Apendice 2 Tranfsormada de un pulso
+
+Apendice 3 Transformada de un tren periodico de pulsos usando la serie de fourier
