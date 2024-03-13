@@ -1,0 +1,116 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\ITBA\20241Q\ASSD\TP-1\Circuito_TP1.asc
+Start Time: Wed Mar 13 18:48:59 2024
+Warning: Multiple definitions of model "mur460" Type: Diode
+Warning: Multiple definitions of model "1n4007" Type: Diode
+Warning: Multiple definitions of model "1n4148" Type: Diode
+Warning: Multiple definitions of model "mur460" Type: Diode
+Warning: Multiple definitions of model "1n4007" Type: Diode
+Warning: Multiple definitions of model "1n4148" Type: Diode
+Warning: Multiple definitions of model "mur460" Type: Diode
+Warning: Multiple definitions of model "1n4007" Type: Diode
+Warning: Multiple definitions of model "1n4148" Type: Diode
+Warning: Multiple definitions of model "mur460" Type: Diode
+Warning: Multiple definitions of model "1n4007" Type: Diode
+Warning: Multiple definitions of model "1n4148" Type: Diode
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = modified trap
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.48432
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:3)
+Ignoring empty pin current: Ix(u1:4)
+Ignoring empty pin current: Ix(u1:5)
+Ignoring empty pin current: Ix(u3:in)
+Ignoring empty pin current: Ix(u3:out)
+Ignoring empty pin current: Ix(u3:v+)
+Ignoring empty pin current: Ix(u3:v-)
+Ignoring empty pin current: Ix(u5:in)
+Ignoring empty pin current: Ix(u5:out)
+Ignoring empty pin current: Ix(u5:v+)
+Ignoring empty pin current: Ix(u5:v-)
+Ignoring empty pin current: Ix(u7:in)
+Ignoring empty pin current: Ix(u7:out)
+Ignoring empty pin current: Ix(u7:v+)
+Ignoring empty pin current: Ix(u7:v-)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:3)
+Ignoring empty pin current: Ix(u1:4)
+Ignoring empty pin current: Ix(u1:5)
+Ignoring empty pin current: Ix(u3:in)
+Ignoring empty pin current: Ix(u3:out)
+Ignoring empty pin current: Ix(u3:v+)
+Ignoring empty pin current: Ix(u3:v-)
+Ignoring empty pin current: Ix(u5:in)
+Ignoring empty pin current: Ix(u5:out)
+Ignoring empty pin current: Ix(u5:v+)
+Ignoring empty pin current: Ix(u5:v-)
+Ignoring empty pin current: Ix(u7:in)
+Ignoring empty pin current: Ix(u7:out)
+Ignoring empty pin current: Ix(u7:v+)
+Ignoring empty pin current: Ix(u7:v-)
+Heightened Def Con from 8.10326e-05 to 8.10333e-05
+Heightened Def Con from 8.10359e-05 to 8.10449e-05
+Heightened Def Con from 8.6005e-05 to 8.6009e-05
+Heightened Def Con from 8.87625e-05 +to 8.87625e-05
+Heightened Def Con from 8.87625e-05 to 8.87625e-05
+Heightened Def Con from 8.87625e-05 +to 8.87625e-05
+Heightened Def Con from 8.87625e-05 to 8.87625e-05
+Heightened Def Con from 8.87625e-05 +++++++to 8.87625e-05
+Heightened Def Con from 8.87625e-05 to 8.87625e-05
+Heightened Def Con from 9.59483e-05 to 9.5949e-05
+Heightened Def Con from 0.000105897 to 0.000105898
+Heightened Def Con from 0.000108653 +++++++++++++++++++to 0.000108653
+Heightened Def Con from 0.000108653 ++++++++++++++++++to 0.000108654
+Heightened Def Con from 0.000108654 +++++++to 0.000108654
+Heightened Def Con from 0.000108654 to 0.000108654
+Heightened Def Con from 0.0001186 to 0.000118601
+Heightened Def Con from 0.000125784 to 0.000125785
+Heightened Def Con from 0.000128541 +++++++++++++++++++to 0.000128541
+Heightened Def Con from 0.000128541 +++++++++++++++++to 0.000128542
+Heightened Def Con from 0.000143465 to 0.000143465
+Heightened Def Con from 0.000150665 to 0.000150669
+Heightened Def Con from 0.000155636 to 0.000155636
+Heightened Def Con from 0.000158392 to 0.000158392
+Heightened Def Con from 0.000163364 to 0.000163364
+Heightened Def Con from 0.000163997 ++++++++to 0.000163997
+Heightened Def Con from 0.000163997 to 0.000163997
+Heightened Def Con from 0.000163997 ++to 0.000163997
+Heightened Def Con from 0.000178293 to 0.000178293
+Heightened Def Con from 0.000183265 to 0.000183265
+Heightened Def Con from 0.00018548 to 0.000185481
+Heightened Def Con from 0.000185484 to 0.000185493
+Heightened Def Con from 0.000195426 to 0.000195427
+Heightened Def Con from 0.000198185 to 0.000198185
+Total elapsed time: 9.641 seconds.
+
