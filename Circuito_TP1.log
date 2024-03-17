@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\ITBA\20241Q\ASSD\TP-1\Circuito_TP1.asc
-Start Time: Thu Mar 14 02:00:32 2024
+Start Time: Sat Mar 16 20:36:26 2024
 Warning: Multiple definitions of model "mur460" Type: Diode
 Warning: Multiple definitions of model "1n4007" Type: Diode
 Warning: Multiple definitions of model "1n4148" Type: Diode
@@ -13,13 +13,15 @@ Warning: Multiple definitions of model "1n4148" Type: Diode
 Warning: Multiple definitions of model "mur460" Type: Diode
 Warning: Multiple definitions of model "1n4007" Type: Diode
 Warning: Multiple definitions of model "1n4148" Type: Diode
+Ignoring MOS2 model parameter UTRA
+Ignoring MOS2 model parameter UTRA
 solver = Normal
 Maximum thread count: 20
 tnom = 27
 temp = 27
 method = modified trap
 Limiting fall time of source v:u9:1 to 2.71051e-20
-WARNING: Less than two connections to node n025.  This node is used by v:u9:1.
+WARNING: Less than two connections to node n025.  This node is used by v1.
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -27,17 +29,17 @@ Gmin = 10
 vernier = 0.5
 vernier = 0.25
 vernier = 0.125
-Gmin = 5.6588
+Gmin = 5.5165
 vernier = 0.0625
 vernier = 0.03125
 vernier = 0.015625
-Gmin = 5.48561
 vernier = 0.0078125
+Gmin = 5.49501
 vernier = 0.00390625
 vernier = 0.00195312
 vernier = 0.000976562
 vernier = 0.000488281
-Gmin = 5.50166
+Gmin = 5.49836
 Gmin = 0
 Gmin stepping failed
 
@@ -51,119 +53,85 @@ Source Step = 19.0104%
 Source Step = 19.04%
 Source Step = 19.0696%
 vernier = 0.00146484
-Source Step = 19.1007%
-Source Step = 19.1451%
-Source Step = 19.1895%
-Source Step = 19.2338%
-Source Step = 19.2782%
-Source Step = 19.3226%
+Source Step = 19.1022%
+Source Step = 19.1465%
+Source Step = 19.1909%
+Source Step = 19.2353%
+Source Step = 19.2797%
 vernier = 0.00219727
-Source Step = 19.3892%
-Source Step = 19.4558%
-Source Step = 19.5224%
-Source Step = 19.589%
-Source Step = 19.6555%
+Source Step = 19.3263%
+Source Step = 19.3929%
+Source Step = 19.4595%
+Source Step = 19.5261%
+Source Step = 19.5927%
+Source Step = 19.6592%
 vernier = 0.0032959
-Source Step = 19.7521%
-Source Step = 19.852%
-Source Step = 19.9518%
-Source Step = 20.0517%
-Source Step = 20.1516%
+Source Step = 19.7591%
+Source Step = 19.859%
+Source Step = 19.9589%
+Source Step = 20.0587%
+Source Step = 20.1586%
 vernier = 0.00494385
-Source Step = 20.2914%
-Source Step = 20.4412%
-Source Step = 20.591%
-Source Step = 20.7409%
-Source Step = 20.8907%
+Source Step = 20.2835%
+Source Step = 20.4333%
+Source Step = 20.5831%
+Source Step = 20.7329%
+Source Step = 20.8827%
 vernier = 0.00741577
-Source Step = 21.0929%
-Source Step = 21.3176%
-Source Step = 21.5424%
-Source Step = 21.7671%
-Source Step = 21.9918%
+Source Step = 21.0625%
+Source Step = 21.2872%
+Source Step = 21.5119%
+Source Step = 21.7367%
+Source Step = 21.9614%
 vernier = 0.0111237
-Source Step = 22.2839%
-Source Step = 22.621%
-Source Step = 22.9581%
-Source Step = 23.2952%
-Source Step = 23.6323%
+Source Step = 22.2198%
+Source Step = 22.5569%
+Source Step = 22.894%
+Source Step = 23.231%
+Source Step = 23.5681%
 vernier = 0.0166855
-Source Step = 24.0536%
-Source Step = 24.5592%
-Source Step = 25.0648%
-Source Step = 25.5705%
-Source Step = 26.0761%
+Source Step = 23.9389%
+Source Step = 24.4445%
+Source Step = 24.9502%
+Source Step = 25.4558%
+Source Step = 25.9614%
 vernier = 0.0250282
-Source Step = 26.6828%
-Source Step = 27.4413%
-Source Step = 28.1997%
-Source Step = 28.9581%
-Source Step = 29.7166%
+Source Step = 26.4923%
+Source Step = 27.2507%
+Source Step = 28.0092%
+Source Step = 28.7676%
+Source Step = 29.526%
+Source Step = 30.2845%
 vernier = 0.0375423
-Source Step = 30.5888%
-Source Step = 31.7264%
-Source Step = 32.8641%
-Source Step = 34.0017%
-Source Step = 35.1393%
+Source Step = 31.4221%
+Source Step = 32.5597%
+Source Step = 33.6974%
+Source Step = 34.835%
+Source Step = 35.9727%
 vernier = 0.0563135
-Source Step = 36.3908%
-Source Step = 38.0972%
-Source Step = 39.8037%
-Source Step = 41.5102%
-Source Step = 43.2166%
+Source Step = 37.6223%
+Source Step = 39.3287%
+Source Step = 41.0352%
+Source Step = 42.7417%
+Source Step = 44.4482%
 vernier = 0.0844703
-Source Step = 45.0084%
-Source Step = 47.5681%
-Source Step = 50.1278%
-Source Step = 52.6875%
-Source Step = 55.2473%
-Source Step = 57.807%
+Source Step = 46.8372%
+Source Step = 49.3969%
+Source Step = 51.9566%
+Source Step = 54.5163%
+Source Step = 57.076%
 vernier = 0.126705
-Source Step = 61.6465%
-Source Step = 65.4861%
-Source Step = 69.3256%
-Source Step = 73.1652%
-Source Step = 77.0047%
+Source Step = 60.5316%
+Source Step = 64.3712%
+Source Step = 68.2108%
+Source Step = 72.0503%
+Source Step = 75.8899%
 vernier = 0.190058
-Source Step = 82.5721%
-Source Step = 88.3314%
-Source Step = 90.0952%
-Source Step = 90.1852%
-Source Step = 90.2752%
-Source Step = 90.3652%
-Source Step = 90.4552%
-vernier = 0.00445449
-Source Step = 90.5587%
-Source Step = 90.6937%
-Source Step = 90.8287%
-Source Step = 90.9636%
-Source Step = 91.0986%
-vernier = 0.00668173
-Source Step = 91.2471%
-Source Step = 91.4496%
-Source Step = 91.6521%
-Source Step = 91.8545%
-Source Step = 92.057%
-vernier = 0.0100226
-Source Step = 92.2696%
-Source Step = 92.5733%
-Source Step = 92.877%
-Source Step = 93.1808%
-Source Step = 93.4845%
-Source Step = 93.7882%
-vernier = 0.0150339
-Source Step = 94.2438%
-Source Step = 94.6993%
-Source Step = 95.1549%
-Source Step = 95.6105%
-Source Step = 96.066%
-vernier = 0.0225508
-Source Step = 96.7266%
-Source Step = 97.41%
-Source Step = 98.0933%
-Source Step = 98.7767%
-Source Step = 99.4601%
-vernier = 0.0338263
+Source Step = 80.8813%
+Source Step = 86.6406%
+Source Step = 92.4%
+Source Step = 98.1593%
+Source Step = 100%
 Source stepping succeeded in finding the operating point.
 
 Ignoring empty pin current: Ix(u1:1)
@@ -240,24 +208,66 @@ Ignoring empty pin current: Ix(u22:in)
 Ignoring empty pin current: Ix(u22:out)
 Ignoring empty pin current: Ix(u22:v+)
 Ignoring empty pin current: Ix(u22:v-)
-Heightened Def Con from 4.81345e-05 to 4.81371e-05
-Heightened Def Con from 4.96075e-05 to 4.96086e-05
-Heightened Def Con from 5.58667e-05 to 5.58672e-05
-Heightened Def Con from 6.08398e-05 to 6.08403e-05
-Heightened Def Con from 6.30561e-05 to 6.30591e-05
-Heightened Def Con from 7.5766e-05 to 7.57665e-05
-Heightened Def Con from 8.0739e-05 to 8.07395e-05
-Heightened Def Con from 0.000112787 to 0.000112789
-Heightened Def Con from 0.000112789 to 0.000112796
-Heightened Def Con from 0.000120519 to 0.000120519
-Heightened Def Con from 0.000127714 to 0.000127717
-Heightened Def Con from 0.00012919 to 0.000129191
-Heightened Def Con from 0.000132688 to 0.000132691
-Heightened Def Con from 0.000134162 to 0.000134163
-Heightened Def Con from 0.000135447 to 0.000135447
-Heightened Def Con from 0.000142639 to 0.000142642
-Heightened Def Con from 0.000155346 to 0.000155347
-Heightened Def Con from 0.000160321 to 0.000160321
-Heightened Def Con from 0.000166468 to 0.000166468
-Total elapsed time: 163.811 seconds.
+Heightened Def Con from 0.000141221 to 0.000141221
+Heightened Def Con from 0.000146193 +++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 +++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 ++++++++++++++++to 0.000146193
+Heightened Def Con from 0.000146193 to 0.000146193
+Heightened Def Con from 0.000146193 to 0.000146193
+Heightened Def Con from 0.000280474 to 0.000280474
+Heightened Def Con from 0.000295394 ++to 0.000295394
+Heightened Def Con from 0.000295394 +to 0.000295394
+Heightened Def Con from 0.000295394 +++++to 0.000295394
+Heightened Def Con from 0.000295394 to 0.000295394
+Heightened Def Con from 0.000357306 to 0.000357306
+Total elapsed time: 248.233 seconds.
 
