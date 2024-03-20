@@ -1,0 +1,33 @@
+* C:\20241Q\TP-1_ASSD_Muestro_G4\cálculo_filtro\Filtro_norma.asc
+XU1 N006 N002 vcc vee N002 TL082
+R1 Vin N001 {mc(r1, tolR)}
+R2 N001 N006 {mc(r2, tolR)}
+C2 N006 0 {c2}
+C1 N001 N002 {mc(c1, tolC)}
+V1 Vin 0 SINE(0.5 0.5 1k) AC 1
+XU2 vcc vee 0 supply Vp=5 Vn=5
+XU4 N008 N004 vcc vee N004 TL082
+R3 N007 N003 {mc(r12, tolR)}
+R4 N003 N008 {mc(r22, tolR)}
+C3 N008 0 {c22}
+C4 N003 N004 {c12}
+XU6 N010 Vo_fil vcc vee Vo_fil TL082
+R5 N009 N005 {mc(r13, tolR)}
+R6 N005 N010 {mc(r23, tolR)}
+C5 N010 0 {c23}
+C6 N005 Vo_fil {c13}
+XU3 N002 N007 vcc vee buffer
+XU5 N004 N009 vcc vee buffer
+XU7 Vo_fil N011 vcc vee buffer
+* .param r1= 1000 r2= 3300 c1= 9.37252963044761e-9 c2= 1.26633041302148e-10 r12= 1000 r22= 3300 c12= 3.42961110920421e-9 c22= 5.31302556815265e-10 r13= 1000 r23= 3300 c13= 2.44095363478539e-9 c23= 1.41827028406999e-9
+.ac dec 1000 1 100Meg
+* .tran 0 2m 10u
+.param tolR=0.05
+.param tolC=0.1
+* .step param run 1 10 1
+.param r1= 1000 r2= 3300 c1= 10n c2= 120p r12= 1000 r22= 3300 c12= 3.3n c22= 560p r13= 1000 r23= 3300 c13= 2.2n c23= 1.5n
+.lib C:\20241Q\Lib_custom_ltspice\libreria\buffer.lib
+.lib TCLib/supply.lib
+.lib TCLib/TL082.lib
+.backanno
+.end
